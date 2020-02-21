@@ -1,0 +1,34 @@
+{
+  "name": "@buzuli/transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run lint && npm run test",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "release": "standard-version",
+    "test": "tap test/*.test.js"
+  },
+  "files": [
+    "package.json",
+    "lib/**/*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "transport",
+    "parallel",
+    "multiprocessing",
+    "subprocess"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@buzuli/meter": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^14.2.0",
+    "standard-version": "^7.0.0",
+    "tap": "^14.6.2"
+  }
+}
