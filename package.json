@@ -1,7 +1,7 @@
 {
   "name": "@buzuli/transport",
   "version": "1.0.0",
-  "description": "",
+  "description": "subprocess coordination for Node.js",
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run lint && npm run test",
